@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "HLS Video Downloader",
+  "version": "1.0",
+  "description": "Detecta e baixa vídeos HLS (.m3u8) da aula diretamente no navegador.",
+  "permissions": [
+    "webRequest",
+    "downloads"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "HLS Video Downloader"
+  }
+}

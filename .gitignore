@@ -1,0 +1,16 @@
+# Arquivos de mídia gerados durante downloads ou conversões
+*.ts
+*.mp4
+*.mp3
+*.m4a
+*.aac
+
+# Logs e arquivos de sistema
+*.log
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# IDEs
+.vscode/
+.idea/
